@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 int main(void){
@@ -6,4 +5,6 @@ int main(void){
     return 0;
 }
 
-a++;
+void decirHola(char* nombre){
+    printf("Hola %s, ¿como estas?", nombre);
+}
